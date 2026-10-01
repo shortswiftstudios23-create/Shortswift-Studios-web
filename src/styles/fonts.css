@@ -1,0 +1,6 @@
+/* Self-hosted fonts.
+   NOTE: the original pages declared the Bricolage @font-face with a fallback list as its
+   family name ("Bricolage Grotesque, Inter, ..."), which is invalid CSS, so browsers dropped
+   the rule and headings silently fell back to Inter. It is declared correctly here. */
+@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url(/fonts/inter-var.woff2) format('woff2')}
+@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:200 800;font-display:swap;src:url(/fonts/bricolage-grotesque-var.woff2) format('woff2')}

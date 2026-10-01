@@ -1,0 +1,16 @@
+/* Touch-target fixes. Only applies on touch devices (coarse pointer) so desktop looks exactly
+   as designed. Hit areas are enlarged with an invisible ::after, so visuals do not move. */
+@media (pointer:coarse){
+  .crumb a, .tw-ls a, .tm-f a, .cl a, .chips a, footer li a{position:relative}
+  .crumb a::after, .tm-f a::after{content:"";position:absolute;left:-6px;right:-6px;top:-14px;bottom:-14px}
+  .fbt button{min-height:44px;padding:0 8px}
+  .burger{min-width:44px;min-height:44px}
+  .flt button, .gl-ct button, .seg button, .rpl, #rep, .bk, .tb, .tab{min-height:44px}
+  .btn{min-height:44px}
+  .chips a{padding-top:10px;padding-bottom:10px}
+  footer li a{display:inline-block;padding:6px 0}
+}
+@media (max-width:420px){
+  /* long unbroken strings (emails, URLs) must never push the page wider than the screen */
+  .em, .cl a span, .wtt a{overflow-wrap:anywhere}
+}
