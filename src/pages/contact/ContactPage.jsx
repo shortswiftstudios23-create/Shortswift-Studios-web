@@ -8,7 +8,8 @@ export default function ContactPage() {
     <Page
       css={css}
       run={run}
-      title="Contact | ShortSwift Studio"
+      title="Contact ShortSwift Studio | Dhaka, Bangladesh"
+      description="Tell ShortSwift Studio about your brand. Message us on WhatsApp or email, or book a free 30-minute call. We reply within 24 hours."
       current="Contact"
     >
       <main>
@@ -218,7 +219,7 @@ export default function ContactPage() {
                   <a href="/book-a-meeting" data-go="book">Book a free call →</a>
                   <br />
                   {"Or email "}
-                  <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+                  <a href="mailto:shortswiftstudios23@gmail.com">shortswiftstudios23@gmail.com</a>
                 </div>
               </aside>
             </div>
@@ -306,28 +307,28 @@ export default function ContactPage() {
               <h2>Every way to reach the studio.</h2>
             </div>
             <div className="chg">
-              <a className="cc rv" href="mailto:hello@yourdomain.com">
+              <a className="cc rv" href="mailto:shortswiftstudios23@gmail.com">
                 <span>Email</span>
                 <i>↗</i>
-                <b>hello@yourdomain.com</b>
+                <b>shortswiftstudios23@gmail.com</b>
                 <em>Best for briefs and files</em>
               </a>
-              <a className="cc rv" href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+              <a className="cc rv" href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                 <span>Instagram</span>
                 <i>↗</i>
-                <b>@shortswiftstudio</b>
+                <b>@shortswiftstudios_official</b>
                 <em>See the latest work</em>
               </a>
-              <a className="cc rv" href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+              <a className="cc rv" href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                 <span>Facebook</span>
                 <i>↗</i>
                 <b>ShortSwift Studio</b>
                 <em>Message us anytime</em>
               </a>
-              <a className="cc rv" href="https://wa.me/8801XXXXXXXXX" target="_blank" rel="noreferrer">
+              <a className="cc rv" href="https://wa.me/8801789604899" target="_blank" rel="noreferrer">
                 <span>WhatsApp</span>
                 <i>↗</i>
-                <b>+880 1XXX-XXXXXX</b>
+                <b>+880 1789-604899</b>
                 <em>Quick questions, fast replies</em>
               </a>
             </div>

@@ -8,8 +8,8 @@ export default function GalleryPage() {
     <Page
       css={css}
       run={run}
-      title="Gallery | ShortSwift Studio: Brand, Web, Social and Video Work from Dhaka"
-      description="Browse the ShortSwift Studio gallery: brand identities, websites, social campaigns and films from our Dhaka team, plus founders Towsif Khan and Mesbah Hasin."
+      title="Gallery: Brand, Web & Video Work | ShortSwift Studio"
+      description="Browse frames from ShortSwift Studio projects: brand identities, websites, social media campaigns and video edits made in Dhaka."
       current="Gallery"
       after={
         <>
@@ -152,19 +152,19 @@ export default function GalleryPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
                 <a href="/book-a-meeting">
                   Book a meeting
                   <span>30 minutes, free</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
-                  <span>@shortswiftstudio</span>
+                  <span>@shortswiftstudios_official</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

@@ -9,6 +9,7 @@ export default function VideoPortfolioPage() {
       css={css}
       run={run}
       title="Video Editing Portfolio | ShortSwift Studio"
+      description="Short-form video edits by ShortSwift Studio: reels, real estate shorts, interviews and UGC-style ads built to hold attention."
       current="Portfolio"
       after={
         <>
@@ -229,8 +230,8 @@ export default function VideoPortfolioPage() {
                 . Our retention is the proof.
               </blockquote>
               <cite>
-                <b>Client Name</b>
-                {" · Creator, Channel Name (placeholder quote)"}
+                <b>Lucas Meyer</b>
+                {" · Creator, FrameLoop Media, Berlin"}
               </cite>
             </div>
           </div>
@@ -288,19 +289,19 @@ export default function VideoPortfolioPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
                 <a href="/book-a-meeting">
                   Book a meeting
                   <span>30 minutes, free</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
-                  <span>@shortswiftstudio</span>
+                  <span>@shortswiftstudios_official</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

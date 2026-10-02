@@ -26,17 +26,29 @@ export default function Page({ css, run, title, description, current, footerVari
 
   useEffect(() => {
     document.title = title;
-    let meta = document.querySelector('meta[name="description"]');
-    if (description) {
-      if (!meta) {
-        meta = document.createElement('meta');
-        meta.name = 'description';
-        document.head.appendChild(meta);
+    const set = (attr, key, value) => {
+      let el = document.head.querySelector(`meta[${attr}="${key}"]`);
+      if (!el) {
+        el = document.createElement('meta');
+        el.setAttribute(attr, key);
+        document.head.appendChild(el);
       }
-      meta.content = description;
-    } else if (meta) {
-      meta.remove();
+      el.setAttribute('content', value);
+    };
+    const url = window.location.origin + window.location.pathname.replace(/\/$/, '');
+    set('name', 'description', description || '');
+    set('property', 'og:title', title);
+    set('property', 'og:description', description || '');
+    set('property', 'og:url', url || window.location.origin + '/');
+    set('name', 'twitter:title', title);
+    set('name', 'twitter:description', description || '');
+    let link = document.head.querySelector('link[rel="canonical"]');
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'canonical';
+      document.head.appendChild(link);
     }
+    link.href = url || window.location.origin + '/';
   }, [title, description]);
 
   useEffect(() => runPage(run), [run]);

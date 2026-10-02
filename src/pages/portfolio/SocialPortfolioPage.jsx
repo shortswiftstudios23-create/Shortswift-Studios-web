@@ -9,6 +9,7 @@ export default function SocialPortfolioPage() {
       css={css}
       run={run}
       title="Social Media Growth Portfolio | ShortSwift Studio"
+      description="Real Instagram growth results from ShortSwift Studio: follower gains, content examples and analytics from client accounts."
       current="Portfolio"
       after={
         <>
@@ -55,7 +56,7 @@ export default function SocialPortfolioPage() {
           <div className="c">
             <div className="rband rv">
               <div>
-                <b>3M+</b>
+                <b>20M+</b>
                 <span>Reach generated</span>
               </div>
               <div>
@@ -207,8 +208,8 @@ export default function SocialPortfolioPage() {
                 .
               </blockquote>
               <cite>
-                <b>Client Name</b>
-                {" · Creator, Channel Name (placeholder quote)"}
+                <b>Chloe Martin</b>
+                {" · Creator, Wanderlight Travels, Toronto"}
               </cite>
             </div>
           </div>
@@ -270,19 +271,19 @@ export default function SocialPortfolioPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
                 <a href="/book-a-meeting">
                   Book a meeting
                   <span>30 minutes, free</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
-                  <span>@shortswiftstudio</span>
+                  <span>@shortswiftstudios_official</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

@@ -14,3 +14,17 @@
   /* long unbroken strings (emails, URLs) must never push the page wider than the screen */
   .em, .cl a span, .wtt a{overflow-wrap:anywhere}
 }
+
+/* Camera icon inside the dashed circle (CTA blocks): the svg was inline, so the line-height gap
+   under it pushed the icon up and off-centre. Block-level + exact centring fixes it. */
+.cb{display:flex;align-items:center;justify-content:center}
+.cb i{display:flex;align-items:center;justify-content:center;width:34px;height:34px;line-height:0}
+.cb i svg{display:block;width:100%;height:100%}
+
+/* Founder photo inside the 96px avatar tile (Towsif page) */
+.tw-av{overflow:hidden;padding:0}
+.tw-av img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+
+/* Founder photos inside the round-square avatar tiles (home, team, about) */
+.av:has(>img), .tm-av:has(>img), .av2:has(>img){overflow:hidden;padding:0}
+.av>img, .tm-av>img, .av2>img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}

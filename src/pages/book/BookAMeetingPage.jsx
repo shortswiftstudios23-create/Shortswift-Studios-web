@@ -8,7 +8,8 @@ export default function BookAMeetingPage() {
     <Page
       css={css}
       run={run}
-      title="Book a Meeting | ShortSwift Studio"
+      title="Book a Free 30-Minute Call | ShortSwift Studio"
+      description="Pick a time for a free 30-minute call with ShortSwift Studio to talk branding, websites, social media growth or video editing."
       current="Contact"
     >
       <main>
@@ -200,7 +201,7 @@ export default function BookAMeetingPage() {
                           <i />
                           Today
                         </span>
-                        <a className="btn p" id="kall" href="#" target="_blank" rel="noopener">
+                        <a className="btn p" id="kall" href="https://calendly.com/shortswiftstudios23/30min" target="_blank" rel="noopener">
                           {"See all available times "}
                           <b>→</b>
                         </a>
@@ -237,7 +238,7 @@ export default function BookAMeetingPage() {
               <aside className="bt rv" aria-label="Your call ticket">
                 <div className="tkt" id="tkt">
                   <div className="tkh">
-                    <img className="logo" style={{ height: "34px" }} src="DATAURI" alt="ShortSwift Studio" />
+                    <img className="logo" style={{ height: "34px" }} src="/logo.png" alt="ShortSwift Studio" />
                     <span>
                       CALL TICKET
                       <br />
@@ -328,15 +329,15 @@ export default function BookAMeetingPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
                   <span>ShortSwift Studio</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

@@ -9,6 +9,7 @@ export default function WebPortfolioPage() {
       css={css}
       run={run}
       title="Website Development Portfolio | ShortSwift Studio"
+      description="Live websites built by ShortSwift Studio: e-commerce, showroom and fragrance stores. Preview each on desktop, tablet and mobile."
       current="Portfolio"
       after={
         <>
@@ -257,8 +258,8 @@ export default function WebPortfolioPage() {
                 {" within weeks."}
               </blockquote>
               <cite>
-                <b>Client Name</b>
-                {" · Director, Company Name (placeholder quote)"}
+                <b>Oliver Grant</b>
+                {" · Director, Harbor Lane Studio, Sydney"}
               </cite>
             </div>
           </div>
@@ -314,19 +315,19 @@ export default function WebPortfolioPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
                 <a href="/book-a-meeting">
                   Book a meeting
                   <span>30 minutes, free</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
-                  <span>@shortswiftstudio</span>
+                  <span>@shortswiftstudios_official</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

@@ -46,7 +46,7 @@ export default function run(rt) {
     {const CU='https://calendly.com/shortswiftstudios23/30min';document.querySelectorAll('a').forEach(a=>{if(/^Book a (Meeting|free call)/i.test(a.textContent.trim())){a.href=CU;a.target='_blank';a.rel='noopener'}})}
 
     /* PHOTO: for everyone to see, save the image next to this file and set PHOTO_SRC = 'mesbah.jpg'. Clicking the portrait previews a photo in your own browser only (stored on this device). PHOTO_POS moves the crop focus, e.g. 'center 10%'. */
-    {const PHOTO_SRC='',PHOTO_POS='center 22%',KEY='mesbah-photo',l=$('#avl'),im=$('#avi'),tx=$('#avt'),f=$('#avf'),em=$('#ave');im.style.objectPosition=PHOTO_POS;
+    {const PHOTO_SRC='/images/team/mesbah-hasin.jpg',PHOTO_POS='center',KEY='mesbah-photo',l=$('#avl'),im=$('#avi'),tx=$('#avt'),f=$('#avf'),em=$('#ave');im.style.objectPosition=PHOTO_POS;
     const show=u=>{im.src=u;im.hidden=false;tx.hidden=true;em.textContent='Change photo';l.classList.remove('no')};
     if(PHOTO_SRC){l.classList.add('lock');l.removeAttribute('role');l.removeAttribute('tabindex');show(PHOTO_SRC)}else{l.classList.add('no');let u=null;try{u=localStorage.getItem(KEY)}catch(e){}if(u)show(u);
     l.addEventListener('click',()=>f.click());l.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click()}});f.addEventListener('click',e=>e.stopPropagation());

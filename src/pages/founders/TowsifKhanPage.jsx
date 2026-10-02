@@ -8,7 +8,8 @@ export default function TowsifKhanPage() {
     <Page
       css={css}
       run={run}
-      title="Towsif Khan | ShortSwift Studio"
+      title="Towsif Khan, Founder | ShortSwift Studio"
+      description="Towsif Khan is the founder of ShortSwift Studio, a Dhaka agency for brand development, video editing, websites and social media growth."
       current="Team"
     >
       <main>
@@ -56,7 +57,7 @@ export default function TowsifKhanPage() {
                 <b>SHORTSWIFT STUDIO</b>
               </div>
               <div className="tw-id">
-                <div className="tw-av">TK</div>
+                <div className="tw-av"><img src="/images/team/towsif-khan.jpg" alt="Towsif Khan, founder of ShortSwift Studio" /></div>
                 <div>
                   <h3>Towsif Khan</h3>
                   <p>Founder · ShortSwift Studio</p>

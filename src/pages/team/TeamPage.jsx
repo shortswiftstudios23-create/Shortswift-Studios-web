@@ -8,7 +8,8 @@ export default function TeamPage() {
     <Page
       css={css}
       run={run}
-      title="Team | ShortSwift Studio"
+      title="Our Team | ShortSwift Studio, Dhaka"
+      description="Meet the founders, editors, designers, writers and strategists behind ShortSwift Studio, a creative brand and growth agency in Dhaka, Bangladesh."
       current="Team"
     >
       <main>
@@ -123,19 +124,19 @@ export default function TeamPage() {
                 </div>
               </div>
               <div className="cl">
-                <a href="mailto:hello@yourdomain.com">
+                <a href="mailto:shortswiftstudios23@gmail.com">
                   Email us
-                  <span>hello@yourdomain.com</span>
+                  <span>shortswiftstudios23@gmail.com</span>
                 </a>
                 <a href="/book-a-meeting">
                   Book a meeting
                   <span>30 minutes, free</span>
                 </a>
-                <a href="https://instagram.com/shortswiftstudio" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/shortswiftstudios_official" target="_blank" rel="noreferrer">
                   Instagram
-                  <span>@shortswiftstudio</span>
+                  <span>@shortswiftstudios_official</span>
                 </a>
-                <a href="https://facebook.com/ShortSwiftStudio" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/share/1SKgPxbDae/" target="_blank" rel="noreferrer">
                   Facebook
                   <span>ShortSwift Studio</span>
                 </a>

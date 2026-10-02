@@ -27,3 +27,6 @@
 
 ## Still placeholders (unchanged from your originals)
 `hello@yourdomain.com`, WhatsApp `+880 1XXX-XXXXXX`, "Project name N", "Client Name" quotes, Calendly link.
+
+## Adding your own images/videos
+Put files in `public/images/...` and `public/videos/...` and reference them with a leading slash, e.g. `/images/brand/acme-1.jpg`. (Without the leading slash the path breaks on nested pages like /portfolio/brand.)

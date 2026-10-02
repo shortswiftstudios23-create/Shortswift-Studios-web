@@ -161,8 +161,8 @@ function Footer({ variant }) {
               <span className="dot" />
               Taking new projects<s id="clk">{time}</s>
             </div>
-            <a href="mailto:hello@yourdomain.com" className="em lime">
-              hello@yourdomain.com
+            <a href="mailto:shortswiftstudios23@gmail.com" className="em lime">
+              shortswiftstudios23@gmail.com
             </a>
           </div>
           <div className="fcols">

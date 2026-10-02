@@ -8,7 +8,8 @@ export default function MesbahHasinPage() {
     <Page
       css={css}
       run={run}
-      title="Mesbah Hasin | ShortSwift Studio"
+      title="Mesbah Hasin, Co-Founder | ShortSwift Studio"
+      description="Mesbah Hasin is the co-founder of ShortSwift Studio, a Dhaka agency for brand development, video editing, websites and social media growth."
       current="Team"
     >
       <main>

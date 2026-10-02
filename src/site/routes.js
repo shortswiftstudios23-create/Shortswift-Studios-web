@@ -1,6 +1,10 @@
 // Single source of truth for every URL on the site.
-export const IG_URL = 'https://instagram.com/shortswiftstudio';
-export const FB_URL = 'https://facebook.com/ShortSwiftStudio';
+export const IG_URL = 'https://www.instagram.com/shortswiftstudios_official';
+export const FB_URL = 'https://www.facebook.com/share/1SKgPxbDae/';
+export const IG_TOWSIF = 'https://www.instagram.com/towsif.khan.02';
+export const FB_TOWSIF = 'https://www.facebook.com/share/1BuVgAVtaY/';
+export const IG_MESBAH = 'https://www.instagram.com/mesbahhasin23';
+export const FB_MESBAH = 'https://www.facebook.com/share/1F14N5aDEH/';
 
 export const PATHS = {
   home: '/',
@@ -100,26 +104,16 @@ export const FOOTER_PORTFOLIO = [
 // Footer "Social" chips. The home page always showed "Instagram / Facebook" chips under both
 // headings; every other page showed the three accounts. Both variants are kept as designed.
 export const SOCIAL_CHIPS = {
-  home: {
-    instagram: [
-      { l: 'Instagram', u: IG_URL, ext: true },
-      { l: 'Facebook', u: FB_URL, ext: true },
-    ],
-    facebook: [
-      { l: 'Instagram', u: IG_URL, ext: true },
-      { l: 'Facebook', u: FB_URL, ext: true },
-    ],
-  },
   default: {
     instagram: [
       { l: 'ShortSwift Studio', u: IG_URL, ext: true },
-      { l: 'Towsif Khan', u: PATHS.towsif },
-      { l: 'Mesbah Hasin', u: PATHS.mesbah },
+      { l: 'Towsif Khan', u: IG_TOWSIF, ext: true },
+      { l: 'Mesbah Hasin', u: IG_MESBAH, ext: true },
     ],
     facebook: [
       { l: 'ShortSwift Studio', u: FB_URL, ext: true },
-      { l: 'Towsif Khan', u: PATHS.towsif },
-      { l: 'Mesbah Hasin', u: PATHS.mesbah },
+      { l: 'Towsif Khan', u: FB_TOWSIF, ext: true },
+      { l: 'Mesbah Hasin', u: FB_MESBAH, ext: true },
     ],
   },
 };

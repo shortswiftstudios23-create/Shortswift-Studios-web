@@ -73,7 +73,7 @@ export default function run(rt) {
     let tk=0;addEventListener('scroll',()=>{if(!tk)tk=requestAnimationFrame(()=>{tk=0;onS()})},{passive:true});addEventListener('resize',onS);onS();
     const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');io.unobserve(e.target)}),{threshold:.12});document.querySelectorAll('.rv,.big').forEach(e=>io.observe(e));
     /* PROOF STRIP (placeholders: replace with real numbers) */
-    $('#strip').innerHTML=[[50,'+','Brands launched'],[3,'M+','Reach generated'],[120,'+','Projects delivered'],[98,'%','Client retention']].map(x=>`<div><b data-n="${x[0]}" data-s="${x[1]}">0${x[1]}</b><span>${x[2]}</span></div>`).join('');
+    $('#strip').innerHTML=[[50,'+','Brands launched'],[20,'M+','Reach generated'],[120,'+','Projects delivered'],[98,'%','Client retention']].map(x=>`<div><b data-n="${x[0]}" data-s="${x[1]}">0${x[1]}</b><span>${x[2]}</span></div>`).join('');
     const io2=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;io2.unobserve(e.target);e.target.querySelectorAll('[data-n]').forEach(n=>{const to=+n.dataset.n,s0=performance.now();(function f(now){const k=Math.min(1,(now-s0)/1800);n.textContent=Math.round(to*(1-Math.pow(1-k,4)))+n.dataset.s;if(k<1)requestAnimationFrame(f)})(s0)})}),{threshold:.4});io2.observe($('#strip'));
 
   }());
