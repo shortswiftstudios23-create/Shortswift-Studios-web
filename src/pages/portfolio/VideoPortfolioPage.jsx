@@ -92,13 +92,13 @@ export default function VideoPortfolioPage() {
             </div>
             <div id="sh">
               <div className="vh">
-                <h3>Ads, films and long-form</h3>
+                <h3>Long-form videos</h3>
                 <span id="ch">0 VIDEOS</span>
               </div>
               <div className="vw" id="vw" />
             </div>
             <p className="note">
-              Placeholder clips for now. Add your videos in the VIDEOS list at the top of this page's script.
+              More films are added regularly. Want yours here? Book a call and we will make it.
             </p>
           </div>
         </section>

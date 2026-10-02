@@ -28,3 +28,12 @@ Compressed videos live in `public/videos`, posters in `public/images/video`, por
 
 ## Before going live
 - The site URL defaults to `https://shortswift-studios-web.vercel.app`. When you buy a custom domain, set `SITE_URL` in Vercel (or edit `scripts/seo.mjs` and the JSON-LD in `index.html`).
+
+## Long-form videos (automatic)
+Drop files into `public/videos/long-form/faceless`, `promotional` or `talking-head` (see the README.txt in that folder). They appear on the Video Editing page on the next build. Too big for GitHub? Add YouTube links to `public/videos/long-form/links.json` instead.
+
+## Founder photos (automatic)
+Replace `public/images/team/towsif-khan.jpg` and `public/images/team/mesbah-hasin.jpg` with your own crops (same names). They update on every page.
+
+## Replacing stand-in website screenshots
+`public/images/web/vulcan-sportswear.jpg`, `hengyu-dac-211.jpg` and `ayah-scents.jpg` are generated stand-ins shown on Home and Gallery. Replace them with real screenshots (same names, ideally 1200x800).
