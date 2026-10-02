@@ -28,3 +28,23 @@
 /* Founder photos inside the round-square avatar tiles (home, team, about) */
 .av:has(>img), .tm-av:has(>img), .av2:has(>img){overflow:hidden;padding:0}
 .av>img, .tm-av>img, .av2>img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+
+/* Gallery: real media tiles */
+.gl-t .gl-play{position:absolute;right:14px;top:14px;width:38px;height:38px;border-radius:50%;background:rgba(0,0,0,.6);border:1.5px solid rgba(223,255,0,.7);display:grid;place-items:center;pointer-events:none;z-index:2}
+.gl-t .gl-play svg{width:16px;height:16px;margin-left:2px}
+.gl-la>video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}
+.gl-t>img[style*="contain"]{background:#050505}
+
+/* Home: founders photo fills the whole placeholder panel */
+.ph2{height:clamp(300px,34vw,420px);overflow:hidden}
+.ph2>img.ph-full{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.ph2::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.45));pointer-events:none}
+.ph2 .br{z-index:2}
+.fc:hover .ph2>img.ph-full{transform:scale(1.03)}
+.ph2>img.ph-full{transition:transform .7s var(--e,cubic-bezier(.2,.8,.2,1))}
+
+/* Home: real photos in the selected-work cards */
+.art>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.cv .wplay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:64px;border-radius:50%;background:rgba(0,0,0,.55);border:2px solid var(--lime);display:grid;place-items:center;z-index:2;pointer-events:none}
+.cv .wplay svg{width:26px;height:26px;margin-left:3px}
+.cv .tag,.cv .vc{z-index:2}

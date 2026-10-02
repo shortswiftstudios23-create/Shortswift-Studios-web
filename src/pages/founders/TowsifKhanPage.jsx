@@ -57,7 +57,7 @@ export default function TowsifKhanPage() {
                 <b>SHORTSWIFT STUDIO</b>
               </div>
               <div className="tw-id">
-                <div className="tw-av"><img src="/images/team/towsif-khan.jpg" alt="Towsif Khan, founder of ShortSwift Studio" /></div>
+                <div className="tw-av"><img src="/images/team/towsif-khan-avatar.jpg" alt="Towsif Khan, founder of ShortSwift Studio" /></div>
                 <div>
                   <h3>Towsif Khan</h3>
                   <p>Founder · ShortSwift Studio</p>

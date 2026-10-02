@@ -93,7 +93,7 @@ export default function GalleryPage() {
             </div>
             <div className="gl-g" id="gv" />
             <div className="gl-g" id="gv" />
-            <p style={{ marginTop: "18px", font: "500 11px ui-monospace,Menlo,monospace", letterSpacing: ".06em", color: "var(--mut)" }}>PLACEHOLDER ARTWORK. REPLACE EACH PROJECT TILE WITH YOUR REAL IMAGE.</p>
+            <p style={{ marginTop: "18px", font: "500 11px ui-monospace,Menlo,monospace", letterSpacing: ".06em", color: "var(--mut)" }}>SELECTED WORK FROM BRAND, WEB, SOCIAL AND VIDEO PROJECTS.</p>
           </div>
         </section>
         <section className="sec" id="faces" style={{ background: "var(--sf)", borderBlock: "1px solid var(--bd)" }}>
